@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap" rel="stylesheet"> 
+    <style>
+      body {
+          padding: 0;
+          margin: 0;
+          background-color: #eaef9d;
+          font-family: 'Ropa Sans', sans-serif;
+      }
+      #root {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          height: 100vh;
+          margin: center;
+      }
+      .content {
+        padding: 1rem 0;
+        font-size: 2.5rem;
+      }
+      @media only screen and (max-width: 640px) {
+        .content {
+            max-width: 320px;
+            font-size: 1.5rem;
+        }
+        img {
+           width: 180px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section id="root">
+      <div>
+        <img src="assets/logo.png" width="240" />
+      </div>
+      <div class="content">
+        <span> Em breve um site fantástico &#x1F499;! </span>
+      </div>
+    </section>
+  </body>
+</html>
