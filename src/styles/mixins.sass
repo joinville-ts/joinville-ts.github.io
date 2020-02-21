@@ -1,0 +1,18 @@
+// helpers from https://github.com/AkatsukiJS/akatsuki/blob/master/assets/css/helpers.sass
+
+// COLORS
+$primary: ('primary': #02423A, 'primary-light': #94B1AE, 'primary-lighter': #BACEC5)
+$secondary: ('secondary': #CB563E)
+$others: ('tertiary': #FCFFBD, 'grey': #E0E0E0)
+$colors: map-merge(map-merge($primary, $secondary), $others)
+
+@function pallete($key)
+  @return map-get($colors, $key)
+
+
+// Typography
+$raleway-font: 'Raleway', sans-serif
+$fonts: ('primary': $raleway-font)
+
+@function typhography($key)
+  @return map-get($fonts, $key)

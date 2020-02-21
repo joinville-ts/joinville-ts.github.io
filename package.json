@@ -1,0 +1,31 @@
+{
+  "name": "joinville-ts.github.io",
+  "version": "0.1.0",
+  "description": "The initial site for the joinville ts org",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.pug",
+    "build": "parcel build src/index.pug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joinville-ts/joinville-ts.github.io.git"
+  },
+  "keywords": [
+    "site",
+    "parcel",
+    "sass",
+    "pug"
+  ],
+  "author": "jeovazero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joinville-ts/joinville-ts.github.io/issues"
+  },
+  "homepage": "https://github.com/joinville-ts/joinville-ts.github.io#readme",
+  "devDependencies": {
+    "parcel": "1.12.4",
+    "pug": "2.0.4",
+    "sass": "1.25.0"
+  }
+}

@@ -1,0 +1,42 @@
+@import './mixins.sass'
+
+p, body, h3
+  padding: 0
+  margin: 0
+
+body
+  background-color: pallete('primary-lighter')
+  font-family: typhography('primary')
+
+.text-center
+  text-align: center
+
+.text-bleach
+  color: pallete('grey')
+
+.with-underline
+  text-decoration: underline double
+  -webkit-text-decoration-color: pallete('secondary')
+  text-decoration-color: pallete('secondary')
+
+.content-center
+  display: flex
+  justify-content: center
+
+.container
+  width: 100%
+  max-width: 840px
+
+#main
+  padding: 32px 0 64px
+  color: pallete('primary')
+  font-weight: bolder
+  h1
+    font-size: 2rem
+
+#meetups
+  padding: 32px 0
+  border-top: 8px solid pallete('secondary')
+  background-color: pallete('primary') 
+  h1
+    color: white
